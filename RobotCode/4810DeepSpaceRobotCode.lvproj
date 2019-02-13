@@ -128,7 +128,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="4bar setpoint and immediate.vi" Type="VI" URL="../4bar/4bar setpoint and immediate.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -555,6 +554,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="4bar Contol Loop.vi" Type="VI" URL="../4bar/4bar Contol Loop.vi"/>
+			<Item Name="4bar setpoint and immediate.vi" Type="VI" URL="../4bar/4bar setpoint and immediate.vi"/>
 			<Item Name="4barCommands.ctl" Type="VI" URL="../4bar/4barCommands.ctl"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
