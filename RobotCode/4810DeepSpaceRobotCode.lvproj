@@ -96,9 +96,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="4bar" Type="Folder" URL="../4bar">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Auton" Type="Folder" URL="../Auton">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -109,6 +106,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Drivebase" Type="Folder" URL="../Drivebase">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Elevator" Type="Folder"/>
 		<Item Name="Hatch Panel Intake" Type="Folder"/>
 		<Item Name="Infrastructure" Type="Folder" URL="../Infrastructure">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -552,6 +550,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="4bar Contol Loop.vi" Type="VI" URL="../4bar/4bar Contol Loop.vi"/>
+			<Item Name="4bar encoder to angle.vi" Type="VI" URL="../4bar/4bar encoder to angle.vi"/>
+			<Item Name="4bar Gravity compensation.vi" Type="VI" URL="../4bar/4bar Gravity compensation.vi"/>
+			<Item Name="4bar setpoint and immediate.vi" Type="VI" URL="../4bar/4bar setpoint and immediate.vi"/>
+			<Item Name="4barCommands.ctl" Type="VI" URL="../4bar/4barCommands.ctl"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
