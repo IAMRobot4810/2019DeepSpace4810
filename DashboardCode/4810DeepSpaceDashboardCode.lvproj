@@ -19,6 +19,9 @@
 			<Item Name="Panel Resized.vi" Type="VI" URL="../Panel Resized.vi"/>
 			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
 		</Item>
+		<Item Name="Vision Things" Type="Folder" URL="../Vision Things">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
