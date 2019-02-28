@@ -21,7 +21,7 @@
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Place a dot on each strip and center.vi" Type="VI" URL="../Place a dot on each strip and center.vi"/>
-		<Item Name="Store images.vi" Type="VI" URL="../../../../../../0_Team 4810/2019/0_DASHBOARD PROGRAMS&apos;/02_09_19 Vision targeting finding center between rectangles/c Oval overlay/Store images.vi"/>
+		<Item Name="Store images.vi" Type="VI" URL="../Store images.vi"/>
 		<Item Name="Dashboard globals.vi" Type="VI" URL="../Dashboard globals.vi"/>
 		<Item Name="Place dots on correct target.vi" Type="VI" URL="../Place dots on correct target.vi"/>
 		<Item Name="Place dots.vi" Type="VI" URL="../Place dots.vi"/>
@@ -100,8 +100,10 @@
 				<Item Name="IMAQ Curve Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Curve Parameters.ctl"/>
 				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
 				<Item Name="Imaq GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq GetImageInfo"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Match Range Setting.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Match Range Setting.ctl"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
@@ -277,6 +279,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
+			<Item Name="Crosshair placement.vi" Type="VI" URL="../Crosshair placement.vi"/>
+			<Item Name="Place dots fixed.vi" Type="VI" URL="../Place dots fixed.vi"/>
+			<Item Name="Recognize correct target fixed.vi" Type="VI" URL="../Recognize correct target fixed.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
