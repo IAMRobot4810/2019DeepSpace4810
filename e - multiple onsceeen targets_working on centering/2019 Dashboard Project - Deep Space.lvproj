@@ -27,6 +27,8 @@
 		<Item Name="Place dots.vi" Type="VI" URL="../Place dots.vi"/>
 		<Item Name="Place the centering dot.vi" Type="VI" URL="../Place the centering dot.vi"/>
 		<Item Name="Sort rectangles from left to right.vi" Type="VI" URL="../Sort rectangles from left to right.vi"/>
+		<Item Name="dot frame and fill placement.vi" Type="VI" URL="../dot frame and fill placement.vi"/>
+		<Item Name="Place dots fixed.vi" Type="VI" URL="../Place dots fixed.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -278,9 +280,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
-			<Item Name="Place dots fixed.vi" Type="VI" URL="../Place dots fixed.vi"/>
 			<Item Name="Recognize correct target fixed.vi" Type="VI" URL="../Recognize correct target fixed.vi"/>
-			<Item Name="dot frame and fill placement.vi" Type="VI" URL="../../dot frame and fill placement.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
