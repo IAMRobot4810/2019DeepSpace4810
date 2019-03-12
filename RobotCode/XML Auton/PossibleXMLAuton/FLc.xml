@@ -1,0 +1,64 @@
+<Array>
+<Name>Array</Name>
+<Dimsize>5</Dimsize>
+<Cluster>
+<Name>Drive Auton</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Drive Distance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Angle</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Drive Auton</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Drive Distance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Angle</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Drive Auton</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Drive Distance</Name>
+<Val>73.34999999999999</Val>
+</DBL>
+<DBL>
+<Name>Angle</Name>
+<Val>-18.40000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Drive Auton</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Drive Distance</Name>
+<Val>34.44000000000000</Val>
+</DBL>
+<DBL>
+<Name>Angle</Name>
+<Val>18.40000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Drive Auton</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Drive Distance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Angle</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
