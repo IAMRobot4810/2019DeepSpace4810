@@ -102,14 +102,16 @@ AddOutputFilter chunkFilter
 		<Item Name="Auton" Type="Folder" URL="../Auton">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Cargo Intake" Type="Folder" URL="../Cargo Intake">
+		<Item Name="Climb" Type="Folder" URL="../Climb">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Climber" Type="Folder"/>
 		<Item Name="Drivebase" Type="Folder" URL="../Drivebase">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Infrastructure" Type="Folder" URL="../Infrastructure">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Intake" Type="Folder" URL="../Intake">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
@@ -620,11 +622,13 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="ClimbControlLoop.vi" Type="VI" URL="../Climb/ClimbControlLoop.vi"/>
-			<Item Name="ClimbOutput.vi" Type="VI" URL="../Climb/ClimbOutput.vi"/>
+			<Item Name="Cargo Control.vi" Type="VI" URL="../Cargo Intake/Cargo Control.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Hatch &amp; Cargo Control.vi" Type="VI" URL="../Cargo Intake/Hatch &amp; Cargo Control.vi"/>
+			<Item Name="Hatch Control.vi" Type="VI" URL="../Cargo Intake/Hatch Control.vi"/>
+			<Item Name="In range custom.vi" Type="VI" URL="../Cargo Intake/In range custom.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -652,7 +656,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
